@@ -1,0 +1,40 @@
+
+    
+    
+    <link rel="stylesheet" href="SimenStylesheet.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <div class="Flex">
+        <a href="HomePage.HTML">
+            <button type="button" class="programer">
+                <ion-icon name="home-outline"></ion-icon>
+            </button>
+        </a> 
+            
+                
+            
+        <a href="treningsvideoer.HTML">
+            <button type="button" class="programer">
+                Videoer
+            </button>   
+        </a> 
+            
+
+            
+        <a href="https://www.google.no/">
+            <button type="button" class="programer">
+                Programer
+            </button>   
+        </a> 
+            
+
+            
+        <a href="https://www.google.no/">
+            <button type="button" class="programer">
+                Lydfiler
+            </button>   
+        </a>
+    </div>
+    
+
+
