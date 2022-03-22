@@ -1,0 +1,16 @@
+.videotext {
+    background-color: black;
+    text-align: center;
+}
+
+.overskrift {
+    text-align: center;
+    color: #002868 ;
+    background-color: #EF2B2D;
+}
+
+.container {
+    display: flex;
+    flex-direction: ltr;
+    background-color: #fff ;
+}
