@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="ErikStylesheet.CSS">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Videoer</title>
 
-
-    <link rel="stylesheet" href="SimenStylesheet.css"> 
-</head>
-<body>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     
+    
+    <link rel="stylesheet" href="SimenStylesheet.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
     <div class="Flex">
         <a href="HomePage.HTML">
             <button type="button" class="programer">
@@ -43,20 +36,5 @@
         </a>
     </div>
     
-    <l class="videotext">Feil du ikke vil gjøre</l>
-    <div class="videobox">
-        <iframe width="800" height="450"
-        src="https://www.youtube.com/embed/H21MYZsw_2A">
-        </iframe>
-    </div>
-    <l class="videotext">Legday workout</l>
-    <div class="videobox">
-        <iframe width="800" height="450"
-        src="https://www.youtube.com/embed/TC8ui7WkOao">
-        </iframe>
-    </div>
 
 
-    
-</body>
-</html>
