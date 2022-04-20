@@ -22,18 +22,28 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 20px;
+    padding: 40px;
     box-sizing: border-box;
-    background: red;
-    border-radius: 4px;
+    background: #009578;
+    border-radius: 10px;
+    display: flex;
 }
 
 .imgbx {
+    width: 150px;
+    flex: 0 0 300px;
+}
 
+.imgbx img{
+    max-width: 75% ;
 }
 
 .content {
+    padding-right: 1px;
+}
 
+.mugshot {
+    padding-right: 10px;
 }
 
 .videobox {
