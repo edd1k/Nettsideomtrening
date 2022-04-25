@@ -18,44 +18,28 @@ body {
 }
 
 .box {
+    display: flex;
     position: absolute;
-    top: 15%;
-    left: 60%;
+    top: 20%;
     padding: 20px;
+    flex-direction: row;
     box-sizing: border-box;
     background: #009578;
     border-radius: 50px;
-    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-evenly;
 }
 
-.box1 {
-    position: static;
-    top: 10%;
-    left: 10%;
-    padding: 20px;
-    box-sizing: border-box;
-    background: #009578;
-    border-radius: 50px;
-    display: flex;
-}
-
-.imgbx {
-    width: 150px;
-    flex: 0 0 300px;
-}
-
-.imgbx img{
-    max-width: 75% ;
-}
-
-.content {
-    padding-right: 1px;
-}
-
-.mugshot {
-    padding-right: 10px;
+.imgbx{
+    max-width: 100%;
+    right: 100%;
 }
 
 .videobox {
+    text-align: center;
+}
+
+.p {
     text-align: center;
 }
