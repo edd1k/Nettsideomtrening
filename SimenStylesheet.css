@@ -26,8 +26,8 @@
 }
 
 .footer{
-	background-color: #24262b;
-    padding: 20px 0; 
+    background-color: #24262b;
+    padding: 20px 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -45,6 +45,11 @@
     padding-left: 40%; 
 }
 
+.navnfooter {
+    color: white;
+}
+
+
 
 .lydfil {
     display: flex;
@@ -56,9 +61,5 @@
     box-sizing: border-box;
     background: gray;
     border-radius: 10px;   
-}
-
-.navnfooter {
-    color: white;
 }
 
