@@ -1,20 +1,20 @@
 .programmer {
     background-color: #009578;
-    font-size: 30px;
+    font-size: 20px;
     outline: 0;
     border: none;
-    
+    height: 35px;
     }
 
 
 .programmer a {
     color: black;
     text-decoration: none;
-    
 }
 
 .Flex {
     background-color: #009578;
+    height: 40px;
 }
 
 .programmer:hover {
@@ -25,5 +25,40 @@
     color: #222;
 }
 
+.footer{
+	background-color: #24262b;
+    padding: 20px 0; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
 
+.footeroverskrift {
+    color: white;
+    padding-left: 40%;  
+}
+
+.infofooter {
+    color: gray;
+    padding-left: 40%; 
+}
+
+
+.lydfil {
+    display: flex;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    box-sizing: border-box;
+    background: gray;
+    border-radius: 10px;   
+}
+
+.navnfooter {
+    color: white;
+}
 
