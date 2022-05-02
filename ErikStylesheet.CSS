@@ -19,15 +19,14 @@ body {
 
 .box {
     display: flex;
-    position: absolute;
+    position: relative  ;
     top: 20%;
     padding: 20px;
-    flex-direction: row;
+    flex-direction: column;
     box-sizing: border-box;
     background: #009578;
     border-radius: 50px;
-    flex-wrap: wrap;
-    justify-items: flex-end;
+    flex-grow: 10000000;
 }
 
 .imgbx{
@@ -47,4 +46,23 @@ body {
 
 .oppgave {
     justify-content: space-between; 
+}
+
+.animasjon {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    position: relative;
+    animation-name: frem-og-tilbake;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes frem-og-tilbake {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: 100px;
+    }
 }
