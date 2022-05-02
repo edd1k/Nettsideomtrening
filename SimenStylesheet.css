@@ -33,17 +33,12 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
-    margin-top: auto;
+    position: sticky;
+    top: 160%;
 }
 
 body {
-    display: flex;
-    min-height: 100%;
-    flex-direction: column;
-}
-
-html {
-    height: 100%;
+    min-height: 160vh;
 }
 
 .footeroverskrift {
@@ -74,3 +69,14 @@ html {
     border-radius: 10px;   
 }
 
+.lydfil2 {
+    display:flex;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    box-sizing: border-box;
+    background: gray;
+    border-radius: 10px;  
+}
