@@ -27,19 +27,24 @@ body {
     background: #009578;
     border-radius: 50px;
     flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: space-evenly;
+    justify-items: flex-end;
 }
 
 .imgbx{
+    display: flex;
     max-width: 100%;
-    right: 100%;
+    justify-self: s;
 }
 
 .videobox {
     text-align: center;
 }
 
-.p {
+.text {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.oppgave {
+    justify-content: space-between; 
 }
