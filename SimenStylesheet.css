@@ -1,5 +1,5 @@
 .programmer {
-    background-color: #009578;
+    background-color:#1D5C63;
     font-size: 20px;
     outline: 0;
     border: none;
@@ -8,21 +8,21 @@
 
 
 .programmer a {
-    color: black;
+    color: #EDE6DB;
     text-decoration: none;
 }
 
 .Flex {
-    background-color: #009578;
+    background-color: #1D5C63;
     height: 40px;
 }
 
 .programmer:hover {
-    color: #055;
+    color: #EDE6DB;
 }
 
 .programmer:active {
-    color: #222;
+    color: white;
 }
 
 .footer{
