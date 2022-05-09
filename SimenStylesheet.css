@@ -26,24 +26,35 @@
 }
 
 .footer{
-	background-color: #24262b;
-    padding: 20px 0; 
+    background-color: #24262b;
+    padding: 10px 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
+    position: sticky;
+    top: 160%;
+}
+
+body {
+    min-height: 160vh;
 }
 
 .footeroverskrift {
     color: white;
-    padding-left: 40%;  
+    padding-left: 40%;
 }
 
 .infofooter {
     color: gray;
     padding-left: 40%; 
 }
+
+.navnfooter {
+    color: white;
+}
+
 
 
 .lydfil {
@@ -58,7 +69,14 @@
     border-radius: 10px;   
 }
 
-.navnfooter {
-    color: white;
+.lydfil2 {
+    display:flex;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    box-sizing: border-box;
+    background: gray;
+    border-radius: 10px;  
 }
-

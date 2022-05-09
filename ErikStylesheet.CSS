@@ -18,44 +18,51 @@ body {
 }
 
 .box {
-    position: absolute;
-    top: 15%;
-    left: 60%;
-    padding: 20px;
-    box-sizing: border-box;
-    background: #009578;
-    border-radius: 50px;
     display: flex;
-}
-
-.box1 {
-    position: static;
-    top: 10%;
-    left: 10%;
+    position: relative  ;
+    top: 20%;
     padding: 20px;
+    flex-direction: column;
     box-sizing: border-box;
-    background: #009578;
+    background: transparent;
     border-radius: 50px;
+    flex-grow: 10000000;
+}
+
+.imgbx{
     display: flex;
-}
-
-.imgbx {
-    width: 150px;
-    flex: 0 0 300px;
-}
-
-.imgbx img{
-    max-width: 75% ;
-}
-
-.content {
-    padding-right: 1px;
-}
-
-.mugshot {
-    padding-right: 10px;
+    max-width: 100%;
+    justify-self: s;
 }
 
 .videobox {
     text-align: center;
+}
+
+.text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.oppgave {
+    justify-content: space-between; 
+}
+
+.animasjon {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    position: relative;
+    animation-name: frem-og-tilbake;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes frem-og-tilbake {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: 100px;
+    }
 }
