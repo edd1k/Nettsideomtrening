@@ -24,7 +24,7 @@ body {
     padding: 20px;
     flex-direction: column;
     box-sizing: border-box;
-    background: #009578;
+    background: transparent;
     border-radius: 50px;
     flex-grow: 10000000;
 }
