@@ -1,13 +1,13 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: white ;
+    margin: 0; /**/
+    padding: 0; /*fyller inn så teksten ikke havner helt inntil kanten av skjermen*/
+    font-family: Arial, Helvetica, sans-serif; /*bestemmer font*/
+    background: white ; /*farge*/
 }
 
 .videotext {    
     color: black;
-    text-align: center;
+    text-align: center; /*teksten legger seg på midten av siden*/
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,9 +17,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.box2 {
+.hjemsidebox1{
+    display: flex; /* gjør elementene inni classen til felx-items*/
+    justify-content:  center; /*sier at elementene må justere seg*/
+    gap: 2em; /*fyller også inn som padding*/
+    padding: 20px;
+}
+
+.hjemsidebox2 {
     display: flex;
-    position: relative  ;
+    position: relative; /*endrer posisjon på elementene. relativ gjør at de endrer seg avgjørende på elementene rundt seg selv.*/
     top: 20%;
     padding: 20px;
     flex-direction: column;
@@ -27,13 +34,6 @@ body {
     background: transparent;
     border-radius: 50px;
     flex-grow: 10000000;
-}
-
-.box1{
-    display: flex;
-    justify-content:  center;
-    gap: 2em;
-    padding: 20px;
 }
 
 .videobox {
@@ -49,21 +49,3 @@ body {
     justify-content: space-between; 
 }
 
-.animasjon {
-    height: 50px;
-    width: 50px;
-    background-color: blue;
-    position: relative;
-    animation-name: frem-og-tilbake;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-@keyframes frem-og-tilbake {
-    0% {
-        left: 0px;
-    }
-    100% {
-        left: 100px;
-    }
-}
