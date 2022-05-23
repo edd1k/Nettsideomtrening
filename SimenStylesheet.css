@@ -22,7 +22,7 @@
 }
 
 .programmer:active {
-    color: white;
+    color: #F1F0C0;
 }
 
 .footer{
@@ -80,3 +80,20 @@ body {
     background: gray;
     border-radius: 10px;  
 }
+
+
+@keyframes runner {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+  
+/* The element to apply the animation to */
+.runnergif{
+    animation-name: runner;
+    background-color: red;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+  }
