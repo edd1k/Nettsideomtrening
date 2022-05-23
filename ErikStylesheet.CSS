@@ -27,13 +27,12 @@ body {
 .hjemsidebox2 {
     display: flex;
     position: relative; /*endrer posisjon på elementene. relativ gjør at de endrer seg avgjørende på elementene rundt seg selv.*/
-    top: 20%;
+    top: 20%; /*bestemmer plasseringen av flexboxen*/
     padding: 20px;
     flex-direction: column;
     box-sizing: border-box;
     background: transparent;
     border-radius: 50px;
-    flex-grow: 10000000;
 }
 
 .videobox {
