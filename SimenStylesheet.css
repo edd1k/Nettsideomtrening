@@ -1,15 +1,15 @@
-.programmer {
-    background-color:#1D5C63;
-    font-size: 20px;
-    outline: 0;
-    border: none;
-    height: 35px;
-    }
+.programmer { /*Her refereres det til programmer fra HTML koden*/
+    background-color:#1D5C63; /*Bakgrunn farge på elementet*/
+    font-size: 20px; /*Font sizen/ størrelse på programmer er 20px*/
+    outline: 0; /*Ingen outline/strek helt i kanten på programmer*/
+    border: none; /*Ingen border på programmer*/
+    height: 35px; /*bestemmer høyde på programmer 35px*/
+}
 
 
-.programmer a {
-    color: #EDE6DB;
-    text-decoration: none;
+.programmer a { /*Programmer a(siden det er en knapp som lenker til en nettside må man skrive a etter for å velge farge slev så den ikke blir blå*/
+    color: #EDE6DB;  /*Farge på elementet*/
+    text-decoration: none; /*Bestemmer rettning. */
 }
 
 .Flex {
@@ -17,33 +17,33 @@
     height: 40px;
 }
 
-.programmer:hover {
+.programmer:hover { /*Om musepekeren er over knappen skal den skifte farge*/
     color: #EDE6DB;
 }
 
-.programmer:active {
+.programmer:active { /*Når knappen er trykket ned skal den skifte farge*/
     color: #F1F0C0;
 }
 
 .footer{
     background-color: #24262b;
-    padding: 10px 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: baseline;
-    position: sticky;
-    top: 160%;
+    padding: 10px 0; /*Fyller inn så teksten ikke havner helt på siden av siden*/
+    display: flex; /*gjør elementene inni classen til felx-items*/
+    flex-direction: row; /*Gjør elementene på rekke*/
+    flex-wrap: wrap; /*Bestemmer rekkefølge på elementene*/
+    justify-content: center; /*setter elementene i midten av siden*/
+    align-items: baseline; /*Setter alle elementene på en felles line så alle har lik høyde*/
+    position: sticky; /*Bestemmer position på elementene*/
+    top: 160%; /*Bestemmer hvor langt opp mot toppen på siden footeren skal være.*/
 }
 
 body {
-    min-height: 160vh;
+    min-height: 160vh; /*Bestemmer hvor lang siden skal være. I dette tillfellet er det 160vh*/
 }
 
-.footeroverskrift {
+.footeroverskrift { /*Bracket gjør så det er mulig å kode css for elementet det er referert til.*/
     color: white;
-    padding-left: 40%;
+    padding-left: 40%; /*Bestemmer hvor mye som skal fylles inn til venstre*/
 }
 
 .infofooter {
@@ -61,12 +61,12 @@ body {
     display: flex;
     position: absolute;
     top: 37%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 50%; /*Hvor mye elementet skal til venstre på siden*/
+    transform: translate(-50%, -50%); /*Setter på en måte kordinater på elementene*/
     padding: 30px;
-    box-sizing: border-box;
+    box-sizing: border-box; /*Setter hvordan høyden og bredden blir regnet ut*/
     background: gray;
-    border-radius: 10px;   
+    border-radius: 10px; /*Bestemmer hvor langdt det skal være fra midten og ut på en box*/   
 }
 
 .lydfil2 {
@@ -83,17 +83,15 @@ body {
 
 
 @keyframes runner {
-    0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: green;}
+    0%   {background-color: red;} /*Når animasjonstiden er på 0% skifter den farge til rød*/
+    25%  {background-color: yellow;} /*Når animasjonstiden er på 25% skifter den farge til gul*/
+    50%  {background-color: blue;} /*Når animasjonstiden er på 50% skifter den farge til blå*/
+    100% {background-color: green;} /*Når animasjonstiden er på 100% skifter den farge til grønn*/
   }
   
-/* The element to apply the animation to */
-.runnergif{
-    animation-name: runner;
+.runnergif {
+    animation-name: runner; /*beskriver animasjonen eller animasjonene som skal brukes på elementet.*/
     background-color: red;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    
-  }
+    animation-duration: 4s; /*Forteller varighet på animasjonen*/
+    animation-iteration-count: infinite; /*Gjør så animasjonen fortsetter å gå i det uendlige*/
+} /*Slutt bracket gjør det mulig å avslutte css kodingen for den gitt class*/
