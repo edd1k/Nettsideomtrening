@@ -1,3 +1,5 @@
+<!--Denne siden er laget av både Simen og Erik-->
+<!--Hvis noe kommentering mangler, kan det være lurt å sjekke de andre nettsidene for kommentarer -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,76 +14,85 @@
 
 </head>
 <body>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    
-    <div class="Flex">
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <!--Dette scriptet måtte være med så vi kunne bruke homepage ikonet fra en nettside vi fant-->
+        
+    <div class="Flex"> <!--En div som ikluderer alle knappene i en class-->
         <a href="HomePage.HTML">
             <button type="button" class="programmer">
-                <ion-icon name="home-outline"></ion-icon>
+                <ion-icon name="home-outline"></ion-icon> <!--Dette er en knapp som vi ved hjelp av et ikon kalrte å få til et hus som symboliserer hjemmeside -->
             </button>
-        </a> 
-            
-                
-            
+        </a>  
+
         <a href="treningsvideoer.HTML">
-            <button type="button" class="programmer">
+            <button type="button" class="programmer"> <!--Videoer knapp på hovedmenyen-->
                 Videoer
             </button>   
         </a> 
             
-
-
-
         <a href="Treningsprogrammer.HTML">
-            <button type="button" class="programmer">
+            <button type="button" class="programmer"> <!--Programmer knapp på hovedmenyen-->
                 Programmer
             </button>   
         </a> 
-            
-
-            
+                    
         <a href="Lydfiler.HTML">
-            <button type="button" class="programmer">
+            <button type="button" class="programmer"> <!--Lydfiler knapp på hovedmenyen-->
                 Lydfiler
             </button>   
         </a>
     </div>
-    <h4 class="videotext">På denne nettsiden finner du en(eller flere) lydfiler som kan være interessange med tanke på trening!</h4>
+
+    <h4 class="videotext">På denne nettsiden finner du en(eller flere) lydfiler som kan være interessante med tanke på trening!</h4>
+
     <div class="lydfil">
-        <h7 class="lydfiltext">I ukas episode får dere svar på det dere lurer på om våre matrutiner forhåpentligvis er det noen smarte tips å hente! Vi snakker blant annet om:
+        <h7 class="lydfiltext">I ukas episode får dere svar på det dere lurer på om matrutiner og forhåpentligvis er det noen smarte tips å hente! 
+                            Vi snakker blant annet om:
+            <ul>
+                <li>mat i forbindelse med trening</li>
+                <li>vegetarmat i hverdagen,</li>
+                <li>til glede og besvær,</li>
+                <li>hvordan unngå dårlig samvittighet når man spiser mye mat,</li>
+                <li>oppskrifter som gjør det enklere å få i seg grønnsaker</li>
+            </ul>
+    </h7>
 
-            smart mat i forbindelse med trening
-            vegetarmat i hverdagen,
-            energidrikker til glede og besvær,
-            hvordan unngå dårlig samvittighet når man spiser mye mat,
-            og oppskrifter som gjør det enklere å få i seg grønnsaker</h7>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/74J3lm1ziSU4dJT6Fqqvbo?utm_source=generator&theme=0&t=0" width="50%" height="232" frameBorder="0"
+    allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> <!--embed link hentet fra spotify-->
+    </div>
 
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/74J3lm1ziSU4dJT6Fqqvbo?utm_source=generator" width="50%" height="232" frameBorder="0" 
+    <div class="lydfil2">
+        <h7 class="lydfiltext">At tradisjonell trening som vi ellers snakker mye om er bra
+            er det liten tvil om, men noe som kanskje er vel så viktig er summen av alle de
+            små valgene vi tar hver eneste dag! Egentlig er det kanskje nettopp de små 
+            daglige triksene som utgjør en god helse? I dag deler vi våre. God lytt.
+        </h7>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6hJKRlu5s0widcFHl872tZ?utm_source=generator&theme=0&t=0" width="50%" height="232" frameBorder="0" 
         allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
     </div>
-
-<footer class="footer">
-    <div class="footer om oss">
-        <h4 class="footeroverskrift">Siden er laget av</h4>
-        <ul class="infofooter">
-            <li>Simen Evenrud Blien</li>
-            <li>Erik Myrdal Prydz</li>                                
-        </ul>
-    </div>
     
-<footer class="footer">
-    <div class="footer kontakt oss">
-        <h4 class="footeroverskrift">Muligheter for å kontakte oss</h4>
-        <ul class="infofooter">
-            <h10 class="navnfooter">Kontaktinfo Simen:</h10>
-            <li>Ring på: +47 983 18 885</li>
-            <li>Send mail til: <a href="mailto:simeneblien@gmail.com">simeneblien@gmail.com</a></mailto></li>
+    <footer class="footer"><!--footeren er kommentert på HomePage.HTML-->
+        <div class="footer om oss">        
+            <h4 class="footeroverskrift">Siden er laget av</h4>        
+            <ul class="infofooter">        
+                <li>Simen Evenrud Blien</li>        
+                <li>Erik Myrdal Prydz</li>                           
     
-            <h10 class="navnfooter">Kontaktinfo Erik:</h10>
-            <li>Ring på: +47 994 20 400</li>
-            <li>Send mail til: <a href="mailto:erik.myrdal.prytz@gmail.com">erik.myrdal.prytz@gmail.com</a></mailto></li>                          
-        </ul>
-    </div>
+            </ul>
     
+        </div>
+        <footer class="footer">
+            <div class="footer kontakt oss">            
+                <h4 class="footeroverskrift">Muligheter for å kontakte oss</h4>            
+                <ul class="infofooter">            
+                    <h10 class="navnfooter">Kontaktinfo Simen:</h10>            
+                    <li>Ring på: +47 983 18 885</li>            
+                    <li>Send mail til: <a href="mailto:simeneblien@gmail.com">simeneblien@gmail.com</a></mailto></li>
+    
+                    <h10 class="navnfooter">Kontaktinfo Erik:</h10>            
+                    <li>Ring på: +47 994 20 400</li>            
+                    <li>Send mail til: <a href="mailto:erik.myrdal.prytz@gmail.com">erik.myrdal.prytz@gmail.com</a></mailto></li>                          
+                </ul>            
+            </div>
 </body>
 </html>

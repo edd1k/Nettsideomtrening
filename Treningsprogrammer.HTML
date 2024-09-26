@@ -1,3 +1,5 @@
+<!--Denne siden er laget av både Simen og Erik-->
+<!--Hvis noe kommentering mangler, kan det være lurt å sjekke de andre nettsidene for kommentarer -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,54 +17,68 @@
 
 </head>
 <body>
-
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    
-    <div class="Flex">
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <!--Dette scriptet måtte være med så vi kunne bruke homepage ikonet fra en nettside vi fant-->
+        
+    <div class="Flex"> <!--En div som ikluderer alle knappene i en class-->
         <a href="HomePage.HTML">
             <button type="button" class="programmer">
-                <ion-icon name="home-outline"></ion-icon>
+                <ion-icon name="home-outline"></ion-icon> <!--Dette er en knapp som vi ved hjelp av et ikon kalrte å få til et hus som symboliserer hjemmeside -->
             </button>
-        </a> 
-            
-                
-            
+        </a>  
+
         <a href="treningsvideoer.HTML">
-            <button type="button" class="programmer">
+            <button type="button" class="programmer"> <!--Videoer knapp på hovedmenyen-->
                 Videoer
             </button>   
         </a> 
             
-
-            
         <a href="Treningsprogrammer.HTML">
-            <button type="button" class="programmer">
+            <button type="button" class="programmer"> <!--Programmer knapp på hovedmenyen-->
                 Programmer
             </button>   
         </a> 
-            
-
-            
+                    
         <a href="Lydfiler.HTML">
-            <button type="button" class="programmer">
+            <button type="button" class="programmer"> <!--Lydfiler knapp på hovedmenyen-->
                 Lydfiler
             </button>   
         </a>
     </div>
+
+    <h1 class="overskrift">Programmer</h1>
+
+    <p class="text">
+        Her ligger det noen treningsprogrammer som omfatter styrke, styrke med egen kroppsvekt og kondisjon. Treningsprogrammene er hentet fra <a href="https://hardworkout.no/" >hardworkout.no</a> <!--linker til hardworkout.no så det vil være mulig å trykke på teksten for å komme til nettsiden deres-->
+    </p>
     
-    <footer class="footer">
-        <div class="footer kontakt oss">
-            <h4 class="footeroverskrift">Muligheter for å kontakte oss</h4>
-            <ul class="infofooter">
-                <h10 class="navnfooter">Kontaktinfo Simen:</h10>
-                <li>Ring på: +47 983 18 885</li>
-                <li>Send mail til: <a href="mailto:simeneblien@gmail.com">simeneblien@gmail.com</a></mailto></li>
-        
-                <h10 class="navnfooter">Kontaktinfo Erik:</h10>
-                <li>Ring på: +47 994 20 400</li>
-                <li>Send mail til: <a href="mailto:erik.myrdal.prytz@gmail.com">erik.myrdal.prytz@gmail.com</a></mailto></li>                          
+    <img src="programegenkroppsvekt.jpeg" alt="programegenkroppsvekt" width="600">
+    <img src="styrkeøkt1.jpg" alt="styrkeøkt1" width="600"><!--bilder av treningsprogram med størrelse-->
+    <img src="konidsjonsøkt1.jpg" alt="kondisjon" width="600">
+
+    <footer class="footer"><!--footeren er kommentert på HomePage.HTML-->
+        <div class="footer om oss">
+            <h4 class="footeroverskrift">Siden er laget av</h4>        
+            <ul class="infofooter">        
+                <li>Simen Evenrud Blien</li>        
+                <li>Erik Myrdal Prydz</li>                           
+    
             </ul>
+    
         </div>
+        <footer class="footer">
+            <div class="footer kontakt oss">            
+                <h4 class="footeroverskrift">Muligheter for å kontakte oss</h4>            
+                <ul class="infofooter">            
+                    <h10 class="navnfooter">Kontaktinfo Simen:</h10>            
+                    <li>Ring på: +47 983 18 885</li>            
+                    <li>Send mail til: <a href="mailto:simeneblien@gmail.com">simeneblien@gmail.com</a></mailto></li>
+    
+                    <h10 class="navnfooter">Kontaktinfo Erik:</h10>            
+                    <li>Ring på: +47 994 20 400</li>            
+                    <li>Send mail til: <a href="mailto:erik.myrdal.prytz@gmail.com">erik.myrdal.prytz@gmail.com</a></mailto></li>                          
+                </ul>            
+            </div>
     
 </body>
 </html>

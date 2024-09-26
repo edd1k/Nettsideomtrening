@@ -1,13 +1,14 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: white ;
+/*stylesheet for å style elementer, linket til sidene*/
+body { 
+    margin: 0; /*lager mellomrom*/
+    padding: 0; /*fyller inn så teksten ikke havner helt inntil kanten av skjermen*/
+    font-family: Arial, Helvetica, sans-serif; /*bestemmer font*/
+    background: white ; /*farge på bakgrunn*/
 }
 
-.videotext {    
-    color: black;
-    text-align: center;
+.videotext { /*alt som skrives her legges til i classen som står før bracketen*/
+    color: black; /*farge på teksten*/
+    text-align: center; /*teksten legger seg på midten av siden*/
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,45 +18,34 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.box {
-    position: absolute;
-    top: 15%;
-    left: 60%;
+.hjemsidebox1{
+    display: flex; /* gjør elementene inni classen til felx-items*/
+    justify-content:  center; /*sier at elementene må justere seg*/
+    gap: 2em; /*fyller også inn som padding*/
     padding: 20px;
-    box-sizing: border-box;
-    background: #009578;
-    border-radius: 50px;
+}
+
+.hjemsidebox2 {
     display: flex;
-}
-
-.box1 {
-    position: static;
-    top: 10%;
-    left: 10%;
-    padding: 20px;
-    box-sizing: border-box;
-    background: #009578;
-    border-radius: 50px;
-    display: flex;
-}
-
-.imgbx {
-    width: 150px;
-    flex: 0 0 300px;
-}
-
-.imgbx img{
-    max-width: 75% ;
-}
-
-.content {
-    padding-right: 1px;
-}
-
-.mugshot {
-    padding-right: 10px;
+    position: relative; /*endrer posisjon på elementene. relativ gjør at de endrer seg avgjørende på elementene rundt seg selv.*/
+    top: 20%; /*bestemmer plasseringen av flexboxen*/
+    padding: 20px; /*fyller inn så teksten ikke havner helt inntil kanten av skjermen, i dette tilfellet er det 20px*/
+    flex-direction: column; /*sier at flex elementene skal ligge på en spesifik måte, her er det column*/
+    box-sizing: border-box; /*bestemer størrelse på boxen og hvordan den er hvis den har en moderbox*/
+    background: transparent; 
+    border-radius: 50px; /*gjør kantene runde, men siden boxen er gjennomsiktig vil det ikke vises*/
 }
 
 .videobox {
     text-align: center;
 }
+
+.text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.oppgave {
+    justify-content: space-between; /*lager mellomrom mellom elementene i classen, space betweeen lager plass imellom det er like mye plass mellom alle elementene*/
+}
+
